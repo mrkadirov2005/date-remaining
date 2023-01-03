@@ -1,0 +1,129 @@
+*,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: rgb(128,128,128);
+background: radial-gradient(circle, rgba(128,128,128,1) 0%, rgba(168,46,46,1) 0%, rgba(43,36,45,1) 13%, rgba(15,5,17,0.84) 36%);
+    /* background-image: linear-gradient(to right  ,black 0%, black 10%, grey 40% ,grey 60%, black 100%); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container{
+    /* border: 10px solid orange; */
+    width: 90%;
+    height: 90vh;
+    
+    /* background-color: rgb(3, 3, 40); */
+    background-color: inherit;
+}
+.input-data-set {
+    /* border: 10px solid  rgb(49, 6, 13); */
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: row;
+    margin-bottom: 100px;
+    width: 95%;
+    height: 10%;
+    /* background-color: blue; */
+    background-color: inherit;
+    color: white;
+    font-size: 25px;
+    font-weight:700;
+    font-style: italic;
+}
+.remaining-time-set {
+    display: flex;
+    justify-content: space-around;
+    /* border: 10px solid  rgb(49, 6, 13); */
+    flex-direction: row;
+    /* background-color: rgb(3, 3, 48);   */
+    width: 95%;
+    
+    /* background-color: blue; */
+    color: white;
+    font-size: 25px;
+    font-weight:700;
+    font-style: italic;
+}
+input{
+    display: flex;
+    flex-direction: row;
+    color: grey;
+    font-size: 22px;
+    /* background-color: rgb(23, 27, 6); */
+}
+input[type='date']::-webkit-calendar-picker-indicator:hover{
+    /* background-color: yellow; */
+    border-radius:5px;
+}
+
+input[type='date']::-webkit-calendar-picker-indicator{
+    color: red;
+    background-color: rgb(17, 173, 17);
+}
+.label-of-date-input{
+    /* color: red; */
+    background-color: inherit
+;
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    
+}
+.days{
+    padding: 10px 20px;
+    background-color: black;
+    /* background-color: grey; */
+    color: white;
+    border-radius: 50%;
+}
+.hour{
+    border-radius: 50%;
+    background-color: black;
+
+    padding: 10px 20px;
+    /* background-color: grey; */
+    color: white;
+}
+.minutes{
+    border-radius: 50%;
+    background-color: black;
+
+    padding: 10px 20px;
+    /* background-color: grey; */
+    color: white;
+}
+.seconds{
+    border-radius: 50%;
+    background-color: black;
+
+    padding: 10px 20px;
+    /* background-color: grey; */
+    color: white;
+}
+span{
+    background-color: transparent;
+    color: orange;
+    /* background-color: green; */
+}
+input{
+    background-color: none;
+}
+h1{
+    background-color: none;
+}
+div{
+    background-color: blue;
+}
+.dayswr{
+    background-color:grey;
+}
+.hour{
+    /* background-color: red; */
+}
